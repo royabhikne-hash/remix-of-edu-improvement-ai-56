@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { Linkedin } from "lucide-react";
 import abhishekRoyImage from "@/assets/abhishek-roy.png";
 import ashvethPawarImage from "@/assets/ashveth-pawar.jpg";
+import deepikaSharmaImage from "@/assets/deepika-sharma.jpg";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -35,8 +36,7 @@ const TeamSection = () => {
       role: "Backend Developer",
       mission:
         "Handles backend development, database design, APIs, and server-side logic.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+      image: deepikaSharmaImage,
       linkedin: "https://www.linkedin.com/in/deepika-sharma-3b7348219",
     },
     {
